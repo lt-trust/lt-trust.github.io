@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+    font-family: Arial, sans-serif;
+  }
+  .s1 {
+    color: #231f20;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 8pt;
+  }
+  .s2 {
+    color: black;
+    font-family: Calibri, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 9pt;
+  }
+  p {
+    color: #231f20;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 11pt;
+    margin: 0pt;
+  }
+  .s3 {
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14pt;
+  }
+  .s4 {
+    color: #231f20;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10pt;
+  }
+  .s5 {
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 10pt;
+  }
+  .s6 {
+    color: #231f20;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 10pt;
+  }
+  .s7 {
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12pt;
+  }
+  .s8 {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10pt;
+  }
+  .s9 {
+    color: #231f20;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10pt;
+  }
+  li {
+    display: block;
+  }
+  #l1 {
+    padding-left: 0pt;
+  }
+  #l1 > li > *:first-child:before {
+    content: " ";
+    color: black;
+    font-family: Symbol, serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10pt;
+  }
+  li {
+    display: block;
+  }
+  #l2 {
+    padding-left: 0pt;
+  }
+  #l2 > li > *:first-child:before {
+    content: " ";
+    color: black;
+    font-family: Symbol, serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10pt;
+  }
+  li {
+    display: block;
+  }
+  #l3 {
+    padding-left: 0pt;
+  }
+  #l3 > li > *:first-child:before {
+    content: " ";
+    color: #231f20;
+    font-family: Symbol, serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10pt;
+  }
+  li {
+    display: block;
+  }
+  #l4 {
+    padding-left: 0pt;
+  }
+  #l4 > li > *:first-child:before {
+    content: " ";
+    color: black;
+    font-family: Symbol, serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10pt;
+  }
+  li {
+    display: block;
+  }
+  #l5 {
+    padding-left: 0pt;
+  }
+  #l5 > li > *:first-child:before {
+    content: " ";
+    color: black;
+    font-family: Symbol, serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10pt;
+  }
+  li {
+    display: block;
+  }
+  #l6 {
+    padding-left: 0pt;
+  }
+  #l6 > li > *:first-child:before {
+    content: " ";
+    color: black;
+    font-family: Symbol, serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10pt;
+  }
+  table,
+  tbody {
+    vertical-align: top;
+    overflow: visible;
+  }
+
+
+  .container {
+    max-width: 700px;
+    margin: auto auto;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .top-table {
+    margin-top: 30px;
+    margin-bottom: 4px;
+    width: 100%;
+    padding: 0%;
+    border-collapse: collapse;
+  }
+
+  .top-table tbody {
+    margin: 0;
+  }
+
+  .top-table tbody tr {
+    display: block;
+    padding: 0;
+    margin: 0;
+    border-bottom: #231f20 solid 2px;
+  }
+  table {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  tbody {
+    width: 100%;
+  }
+  .top-table-header {
+    color: #ffffff;
+    background-color: #231f20;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20pt;
+    /* background-color: rgb(0, 0, 0); */
+    padding: 10px;
+    margin: 0%;
+    text-align: center;
+    width: 70pt;
+  }
+
+  .top-table-texts {
+    color: #231f20;
+    text-align: left;
+    padding-top: 10px;
+  }
+
+  .top-table-texts p {
+    margin: 0;
+    padding: 2px 12px;
+    font-weight: bold;
+  }
+
+  .questions {
+    margin: 10px 0px;
+    border: #939598 1px solid;
+    display: flex;
+  }
+
+  .question-header {
+    background-color: #939598;
+    color: #ffffff;
+    padding: 10px;
+    width: 70pt;
+    text-align: center;
+  }
+
+  .question-links {
+    color: #231f20;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 10pt;
+    padding: 10px;
+  }
